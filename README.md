@@ -120,3 +120,16 @@ In the launch file, add the enviroments variables values. Do not commit this fil
 
 
 
+
+### 986MB VsCode  vs 2,47GB Intellij 
+
+The main advatage of VsCode is its lightweight compared with other Java IDEs.
+
+<img src="img/intellij.png" alt="overview" width="600"/>
+
+VS
+
+<img src="img/vscode1.png" alt="overview" width="600"/>
+<img src="img/vscode2.png" alt="overview" width="600"/>
+
+
