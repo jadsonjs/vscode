@@ -9,20 +9,13 @@ Visual Studio Code is a source code editor developed by Microsoft for Windows, L
 <img src="img/vscode.png" alt="overview" width="200"/>
 
 
-## Spring Boot
-
-Spring Boot is a framework that cames to reduce the significant time and knowledge to configure, set up, and deploy Spring applications.
-
-Spring is one of the most popular open source framework for the Java platform created by Rod Johnson and described in his book "Expert One-on-One: JEE Design and Development". It is a non-intrusive framework, based on inversion of control and dependency injection design patterns.
-
-<img src="img/spring-boot.png" alt="overview" width="200"/>
-
-
-## VSCode Installation
+### VSCode Installation
 
 You can access https://code.visualstudio.com/download and download the respective package for you Operation System.
 
-## VSCode Extensions
+<br><br>
+
+### VSCode Extensions
 
 
 <img src="img/extension-pack-java.png" alt="overview" width="400"/>
@@ -45,10 +38,26 @@ Spring Initializr is a lightweight extension to quickly generate a Spring Boot p
 This extension provides a visual interface for your Gradle build. You can use this interface to view Gradle Tasks and Project dependencies, or run Gradle Tasks as VS Code Task.
 
 
+Install these extensions and restart the Vscode.
+
+<br><br><br>
+
+## Spring Boot
+
+Spring Boot is a framework that cames to reduce the significant time and knowledge to configure, set up, and deploy Spring applications.
+
+Spring is one of the most popular open source framework for the Java platform created by Rod Johnson and described in his book "Expert One-on-One: JEE Design and Development". It is a non-intrusive framework, based on inversion of control and dependency injection design patterns.
+
+<img src="img/spring-boot.png" alt="overview" width="200"/>
+
+
+
 <br><br><br>
 
 
-## Creating a new Spring Boot project
+## Spring Boot project
+
+### Creating a new Spring Boot project
 
 You can type: ``ctrl + sift + p`` and should **"Spring Initializr: Create a Gradle Project..."**
 
@@ -68,5 +77,23 @@ Choose the spring boot language:
 Choose the spring boot dependences:
 
 <img src="img/spring-boot-dependences.png" alt="overview" width="400"/>
+
+<br>
+
+### Open the  Spring Boot project in VSCode
+
+
+This will create and configure a a new spring boot project in the VSCode
+
+<img src="img/java-structure.png" alt="overview" width="300"/>
+
+
+To run or debug the spring boot project, you can spring boot main class and click in "Run|Debug"
+
+<img src="img/spring-boot-main.png" alt="overview" width="400"/>
+
+Or use the button in the VSCode interface.
+
+<img src="img/spring-boot-main-button.png" alt="overview" width="400"/>
 
 
