@@ -96,4 +96,27 @@ Or use the button in the VSCode interface.
 
 <img src="img/spring-boot-main-button.png" alt="overview" width="400"/>
 
+<img src="img/spring-boot-run.png" alt="overview" width="800"/>
+
+We now create a spring boot controller:
+
+<img src="img/spring-boot-controller.png" alt="overview" width="400"/>
+
+
+#### Environments Variables
+
+In some cases, it is necessary to use Environments Variables to project sensitive data, like database user and password.
+
+<img src="img/application-properties.png" alt="overview" width="400"/>
+
+
+In the VsCode, we configure this information in a **launch.json** file under **.vscode** directory.  To create a launch.json file, click the "create a launch.json file" link in the Run start view.
+
+<img src="img/create-launch.png" alt="overview" width="400"/>
+
+In the launch file, add the enviroments variables values. Do not commit this file, add it to **.gitignore** file.
+
+<img src="img/launch-file.png" alt="overview" width="400"/>
+
+
 

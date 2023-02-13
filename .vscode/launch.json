@@ -1,0 +1,26 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch VscodeApplication",
+            "request": "launch",
+            "mainClass": "br.com.jadson.vscode.VscodeApplication",
+            "projectName": "vscode",
+            "env": {
+                "PROJECT_NAME": "VSCODE_PROJECT",
+                "DB_USER": "sa",
+                "DB_PASSWORD": "sa"
+              }
+        }
+    ]
+}
